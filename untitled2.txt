@@ -1,0 +1,65 @@
+Q.1. Create two int type variables, apply addition, subtraction, division, and multiplication, and store the results in variables. Then print the data in the following format by calling the variables:
+ First variable is __ & second variable is __.
+ Addition: __ + __ = __
+ Subtraction: __- __ = __
+ Multiplication: __ * __ = __
+ Division: __ / __ = _
+
+first_variable = 10
+second_variable = 5
+
+# operations
+add = first_variable + second_variable
+sub = first_variable - second_variable
+mul = first_variable * second_variable
+div = first_variable / second_variable
+
+# Print the results
+print(f"First variable is {first_variable} & second variable is {second_variable}.")
+print(f"Addition: {first_variable} + {second_variable} = {addition_result}")
+print(f"Subtraction: {first_variable} - {second_variable} = {subtraction_result}")
+print(f"Multiplication: {first_variable} * {second_variable} = {multiplication_result}")
+print(f"Division: {first_variable} / {second_variable} = {division_result}")
+
+Q.2. What is the difference between the following operators:
+ (i)
+ (/): The single forward slash is the regular division operator. It performs floating-point division, and the result is always a floating-         point number./ gives the exact quotient with decimals.
+(//):The double forward slash performs floor division. It divides the left operand by the right operand and returns the largest integer less than or equal.// gives the rounded-down (floor) quotient as an integer.
+
+(ii) 
+ **: Exponentiation operator raises the left operand to the power of the right operand.
+    Example: 2 ** 3 results in 8 (2 cubed).
+
+(ii) ^: Bitwise XOR operator performs bitwise XOR on corresponding bits of the operands.
+       Example: 5 ^ 3 results in 6 (binary 101 XOR 011).
+
+Q.3. List the logical operators:
+    and: Logical AND
+    or: Logical OR
+    not: Logical NOT
+    
+Q.4. Explain right shift operator (>>) and left shift operator (<<) with examples:
+Right Shift Operator (>>): Shifts the bits of the left operand to the right by the number of positions specified by the right operand.
+x = 8
+result = x >> 2  # Shift right by 2 positions
+print(result)    # Output: 2 (binary 100 shifted right by 2 positions becomes 001)
+
+Left Shift Operator (<<): Shifts the bits of the left operand to the left by the number of positions specified by the right operand.
+
+x = 2
+result = x << 3  # Shift left by 3 positions
+print(result)    # Output: 16 (binary 010 shifted left by 3 positions becomes 10000)
+
+Q.5. Create a list containing int type data of length 15. Then write code to check if 10 is present in the list or not:
+my_list = [3, 5, 8, 10, 12, 15, 18, 20, 25, 30, 35, 40, 45, 50, 55]
+
+# Check if 10 is present in the list
+if 10 in my_list:
+    print("10 is present in the list.")
+else:
+    print("10 is not present in the list.")
+
+
+
+
+
